@@ -4,6 +4,7 @@ import Pricing from "@/components/Home/Pricing";
 import Testimonials from "@/components/Home/Testimonials";
 import WhoWeAre from "@/components/Home/WhoWeAre";
 import WhyUs from "@/components/Home/WhyUs";
+import AuthModal from "@/components/shared/auth/auth-modal";
 import React from "react";
 
 const page = () => {
@@ -12,6 +13,7 @@ const page = () => {
       <section>
         <Banner />
       </section>
+
       <section>
         <WhoWeAre />
       </section>

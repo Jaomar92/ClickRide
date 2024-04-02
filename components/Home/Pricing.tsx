@@ -62,7 +62,7 @@ const Pricing = () => {
           {CustomerPriceList.map((item) => (
             <div
               key={item.id}
-              className="bg-lime-300 w-full h-full rounded-xl shadow-md"
+              className="bg-lime-400 w-full h-full rounded-xl shadow-md"
             >
               <h4 className="text-neutral-700 font-bold text-2xl text-center py-3">
                 {item.title}
@@ -102,7 +102,7 @@ const Pricing = () => {
         <p className="my-5 text-lg text-neutral-700 leading-relaxed">
           Dealers can subscribe to our Saas Program for a monthly subscription.
         </p>
-        <div className="bg-lime-300 w-full h-full rounded-xl shadow-md">
+        <div className="bg-lime-400 w-full h-full rounded-xl shadow-md">
           <div className="p-5">
             <div className="flex items-center justify-between border-b-[3px] border-neutral-800 mx-8">
               <h4 className="text-neutral-800 text-3xl font-bold  text-center py-3">
